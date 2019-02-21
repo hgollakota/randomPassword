@@ -49,17 +49,20 @@ c:\\Pyscripts>randomPassWords.py
 Password :
 ResistShapeAmendment
 
-Generating password with special characters
+ex: Generating password with special characters
+
 c:\\Pyscripts>randomPassWords.py 25 -s
 Password :
 Kid.Rather.Funny.Novel&Museum&
 
-Generating password with special characters and numbers
+ex: Generating password with special characters and numbers
+
 c:\\Pyscripts>randomPassWords.py 25 -sn
 Password :
 Although.3Regularly&6Blue.2
 
-Generating password using words from a different wordbank 
+ex: Generating password using words from a different wordbank 
+
 c:\\Pyscripts>randomPassWords.py 25 -sn -wb testwb.txt
 Password :
 Gzzle!5Lzzle!8Szzle.2Qzzle&7
