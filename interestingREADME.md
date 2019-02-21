@@ -46,23 +46,31 @@ but if that is unavailable a limited wordbank is included within the program
 ex:Basic Generation using defaults
 
 c:\\Pyscripts>randomPassWords.py
+
 Password :
+
 ResistShapeAmendment
 
 ex: Generating password with special characters
 
 c:\\Pyscripts>randomPassWords.py 25 -s
+
 Password :
+
 Kid.Rather.Funny.Novel&Museum&
 
 ex: Generating password with special characters and numbers
 
 c:\\Pyscripts>randomPassWords.py 25 -sn
+
 Password :
+
 Although.3Regularly&6Blue.2
 
 ex: Generating password using words from a different wordbank 
 
 c:\\Pyscripts>randomPassWords.py 25 -sn -wb testwb.txt
+
 Password :
+
 Gzzle!5Lzzle!8Szzle.2Qzzle&7
