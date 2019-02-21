@@ -15,22 +15,27 @@ for best effect.
 
 To use:
 In Command Prompt:
-1) Navigate to the folder that contains both randomPassWords.py
-and ngsl.txt
+1) Navigate to the folder that contains both randomPassWords.py and ngsl.txt
+
 ex:
-c:\> cd c:\<folder>
+
+c:\\> cd c:\\<folder>
 
 2) Run randomPassWords.py from Commpand Prompt
 
 OPTIONS:
 There are several command prompt options that can be explained
 by including -h or --help after the program
+
 ex:
-c:\> randomPassWords.py -h
+
+c:\\> randomPassWords.py -h
 
 -Entering integers will specify a MINIMUM password length, default is 14
+
 ex:
-c:\> randomPassWords.py 20
+
+c:\\> randomPassWords.py 20
 
 -the -wb or --wordbankfile option will allow use of a different wordbank
 I have included a testwb.txt file to demonstrate this. Default is ngsl.txt,
@@ -38,23 +43,23 @@ but if that is unavailable a limited wordbank is included within the program
 -the -n or --numbers option will include number 0-9 in the password
 -the -s or --symbols option will include some special characters
 
-ex:
-Basic Generation using defaults
-c:\Pyscripts>randomPassWords.py
+ex:Basic Generation using defaults
+
+c:\\Pyscripts>randomPassWords.py
 Password :
 ResistShapeAmendment
 
 Generating password with special characters
-c:\Pyscripts>randomPassWords.py 25 -s
+c:\\Pyscripts>randomPassWords.py 25 -s
 Password :
 Kid.Rather.Funny.Novel&Museum&
 
 Generating password with special characters and numbers
-c:\Pyscripts>randomPassWords.py 25 -sn
+c:\\Pyscripts>randomPassWords.py 25 -sn
 Password :
 Although.3Regularly&6Blue.2
 
 Generating password using words from a different wordbank 
-c:\Pyscripts>randomPassWords.py 25 -sn -wb testwb.txt
+c:\\Pyscripts>randomPassWords.py 25 -sn -wb testwb.txt
 Password :
 Gzzle!5Lzzle!8Szzle.2Qzzle&7
