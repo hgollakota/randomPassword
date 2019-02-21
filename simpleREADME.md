@@ -5,14 +5,14 @@ From Command Prompt:
 
 ex:
 
-c:\> cd c:\<path_to_.py>
+c:\\> cd c:\\<path_to_.py>
 
 2) Either run simpleRandomPassword.py WITH an integer argument
 for the length of the password
 
 ex:
 
-c:\> simpleRandomPassword 18
+c:\\> simpleRandomPassword 18
 
 -OR-
 
